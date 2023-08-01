@@ -1,0 +1,88 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+body{
+    background-color: rgb(236, 191, 183);
+}
+
+h2{
+    font-size : 2rem;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-image: url("../Images/Damage-Free-Hair-Care-Routine.jpg");
+    background-size:cover;
+    padding-bottom: 300px;
+}
+
+header > img{
+    display : block;
+    margin-left : auto;
+    margin-right : auto;
+    background-image: white;
+}
+
+.nav-link{
+    display : flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.top {
+    text-decoration: none;
+    font-weight : bold;
+    margin : 1rem;
+    padding : 9px;
+    color:rgb(227, 103, 103);
+    border : 2px outset peachpuff;
+    border-radius: 10%;  
+}
+
+.top:hover{
+    background-color: white;
+}
+
+/* main */
+
+.promotion article{
+    margin : 2rem;
+    border-radius: 15px;
+    border: 2px groove rgb(101, 77, 77);
+    background-color: rgb(244, 221, 216);
+    padding: 2rem;
+}
+
+.promotion p{
+    font-size : 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-articles{
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows : 20rem;  
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(213, 93, 76);
+    display:inline-grid;
+    width : 100%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer div{
+    margin : 2rem;
+}
+
+footer p{
+    text-align : right;
+    margin-right : 1rem;
+}
