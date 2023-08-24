@@ -1,0 +1,14 @@
+body>div{
+    height : 600px;
+    width : 900px;
+    background-color : #005bbb;
+    position : relative;
+}
+
+body>div>div{
+    position : absolute;
+    height : 300px;
+    width : 100%;
+    background-color: #ffd500;
+    top : 300px;
+}

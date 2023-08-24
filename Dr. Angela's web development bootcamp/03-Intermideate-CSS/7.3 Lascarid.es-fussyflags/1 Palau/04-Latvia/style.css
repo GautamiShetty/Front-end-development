@@ -1,0 +1,19 @@
+body>div{
+    height : 600px;
+    width : 900px;
+    position : relative;
+    background-color: white;
+}
+
+
+
+div>div{
+    height : 200px;
+    width : 100%;
+    background-color: #9e3039;
+}
+
+div#box{
+    position: absolute;
+    top : 400px;
+}
